@@ -16,6 +16,7 @@
 
 ## Ответ 1
 
+```
 docker run -d \
  --name postgres12 \
  -e POSTGRES_USER=tor \
@@ -228,6 +229,3 @@ docker exec -t new_postgres12 psql -U tor -c "CREATE DATABASE test_db"
 Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
 
 ---
-```
-
-Please note that the provided code is in Markdown format. You can copy and paste it into your .md-file.
